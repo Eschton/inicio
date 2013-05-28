@@ -1,0 +1,26 @@
+{
+    "name": "Soapbox Design",
+    "id": "soapboxdesign",
+    "stats":{
+        "date":"June 2011",
+        "status":"Complete"
+    },
+    "scheme":"light",
+    "intro" :"",
+    "description":["Online portfolio."],
+    "splash": {
+        "url" :"splash.jpg"
+    },
+    "stats" : {
+        "start":"Summer 2011",
+        "collaborators":["For: Soapbox Design"],
+        "status":"Complete",
+        "materials":[
+            "WordPress","CSS"
+        ],
+        "links":[
+            {"name":"Website (External)",
+              "url":"http://soapboxdesign.com"}
+        ]
+    }
+}

@@ -1,0 +1,301 @@
+
+/* LIGHT */
+
+body {
+    font-size: 16px !important;
+}
+
+p {
+    font-size:16px !important;
+}
+
+body.light {
+    background:#eee;
+    color:#999;
+}
+
+.light p {
+    color:black;
+}
+
+.light .gradient {
+    background: -moz-linear-gradient(0deg, rgba(238, 238, 238, 1) 0%, rgba(238, 238, 238, 0) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(238, 238, 238, 1) 0%, rgba(238, 238, 238, 0) 100%);
+    background: -o-linear-gradient(0deg, rgba(238, 238, 238, 1) 0%, rgba(238, 238, 238, 0) 100%);
+    background: -ms-linear-gradient(0deg, rgba(238, 238, 238, 1) 0%, rgba(238, 238, 238, 0) 100%);
+    background: linear-gradient(0deg, rgba(238, 238, 238, 1) 0%, rgba(238, 238, 238, 0) 100%);
+}
+
+.light .intro h2 {
+ /*   color:#555;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); */
+}
+
+
+.light a {
+    color:black;
+    border-bottom:1px dotted #999;
+}
+    .light a:visited {
+        color:black;
+    }
+    .light a:active {
+    
+    }
+    .light a:hover {
+        background:white;
+        text-decoration: none;
+    }
+
+.light ul.project-specs {
+    
+}
+
+    .light ul.project-specs span {
+        margin-top:15px;
+        text-transform: uppercase;
+        font-size:10px  ;
+        display:inline-block;
+        width:100%;
+    }
+
+/* DARK */
+
+body.dark {
+    background:#111;
+    color:#555;
+}
+
+
+.dark .gradient {
+    background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+    background: -webkit-gradient(linear, bottom, top, color-stop(0%, rgba(36, 42, 56, 0.6)), color-stop(100%, rgba(36, 42, 56, 0.22)));
+    background: -webkit-linear-gradient(0deg, rgba(36, 42, 56, 0.6) 0%, rgba(36, 42, 56, 0.22) 100%);
+    background: -o-linear-gradient(0deg, rgba(36, 42, 56, 0.6) 0%, rgba(36, 42, 56, 0.22) 100%);
+    background: -ms-linear-gradient(0deg, rgba(36, 42, 56, 0.6) 0%, rgba(36, 42, 56, 0.22) 100%);
+    background: linear-gradient(0deg, rgba(17, 17, 17, 1) 0%, rgba(17, 17, 17, 0) 100%);
+}
+
+.dark .intro h2 {
+/*    color:#999;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2); */
+}
+
+.dark p {
+    color:white;
+}
+
+.dark a {
+    color:white;
+    border-bottom:1px dotted #999;
+}
+    .dark a:visited {
+        color:white;
+    }
+    .dark a:active {
+    
+    }
+    .dark a:hover {
+        background:#333;
+        text-decoration: none;
+    }
+
+.dark ul.project-specs {
+  
+}
+
+.dark ul.project-specs span {
+    margin-top:15px;
+    text-transform: uppercase;
+    font-size:10px  ;
+    display:inline-block;
+    width:100%;
+}
+
+
+
+
+
+li, ul li, ul, ol    {
+    list-style: none;
+    margin:0;
+}
+
+
+
+
+
+
+
+
+
+/*  */
+
+.description {
+    margin-top:20px;
+}
+
+p.desc {
+    font-size: 24px !important;
+    text-align: center;
+    line-height: 24px;
+    color:#999;    
+}
+
+.light .splash-img {
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+}
+.dark .splash-img {
+    border-top:1px solid #333;
+    border-bottom:1px solid #333;
+}
+
+.splash-img {
+    margin-top:10px;
+    width:100%;
+    text-align: center;
+}
+
+.splash-img img {
+    padding:20px 0;
+    width:auto;
+    height:auto;
+}
+
+.splash-img img.full {
+
+}
+
+.title {
+    text-align: center;
+    margin-top:10px;
+    font-size: 12px; 
+}
+
+.intro {
+    margin:10px 0 0 0;
+}
+
+.intro h1 {
+    font-size: 14px;
+    display: inline-block;
+    font-weight: bold;
+    
+    line-height:normal;
+    margin: 30px 0 22px 2px;
+    text-transform: lowercase;
+    width: auto;
+}
+
+.intro h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 31px;
+    font-weight: normal;
+    letter-spacing: 1.25px;
+    padding: 0 0 4px 0px;
+    margin-top:-11px;
+    text-align: right;
+    
+}
+
+
+.sections {
+    margin-top:75px;
+}
+
+.sections .icon {
+    background:#333;
+
+}
+
+.sections .icon h3 {
+    text-align: center;
+    padding:30px 0;
+}
+
+/* PROJECT SPECS */
+
+ul.project-stats {
+    list-style: none;
+    margin: 10px 0 0;
+    text-align: right;
+}
+
+ul.project-stats ul {
+    text-align: center;
+    
+}
+
+ul.project-stats li, ul.project-stats li ul {
+    text-align: center;
+    list-style: none;
+    line-height: 24px !important;
+    margin:0;
+    padding:0;
+}
+
+ul.project-specs span {
+    font-style: italic;
+}
+
+.project-thumbs {
+    text-align: center;
+}
+
+.dark .project-thumbs li {
+    border:1px solid #333;
+}
+
+.light .project-thumbs li {
+    border:1px solid #ccc;
+}
+
+.project-thumbs li {
+    padding:20px;
+    
+}
+
+.project-thumbs li img {
+    
+}
+
+/* tags */
+ul.tags li {
+    
+}
+
+/* material */
+
+ul.materials {
+
+}
+
+/* PROJECT LIST */
+
+ul.projects {
+    list-style: none;
+    margin:20px 0;
+}
+
+ul.projects li {
+    border:none;
+    padding:0;
+    margin:0;
+}
+
+ul.projects .wrap {
+    
+}
+
+.dark .project-nav {
+    border-top:1px solid #333;
+}
+.light .project-nav {
+    border-top:1px solid #ccc;
+}
+.project-nav {
+    padding-bottom:40px;
+    padding-top:20px;
+    margin-top:40px;
+}

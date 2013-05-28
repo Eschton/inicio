@@ -1,0 +1,22 @@
+{
+    "name": "Tap Art",
+    "scheme":"dark",
+    "id": "tapart",
+    "stats":{
+        "start":"August 2012",
+        "status":"Ongoing",
+        "materials":["Android Phone","Instagram"],
+        "links":[
+                {
+                    "name":"Instgram",
+                    "url":"http://Instagram.com/11235811"
+                }
+            ],
+        "tags":["taps","faucets","Instagram"] 
+    },
+    "scheme":"light",
+    "description": ["Images of taps."],
+    "splash": {
+        "url":"splash.gif"
+        }
+}

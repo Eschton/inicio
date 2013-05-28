@@ -1,0 +1,21 @@
+{
+    "name": "Frank Dean",
+    "id": "frankdean",
+    "scheme":"light",
+    "description":["Interactive narrative. "],
+    "splash": {
+        "url":"splash.jpg"
+        },
+    "stats" : {
+        "start":"Spring 2012",
+        "collaborators": ["With: Connor Olthuis", "Jasmine Parkinson", "Chantelle Gabino"],
+        "status":"Complete",
+        "materials":[
+            "Popcorn.js","Vimeo","HTML"
+        ],
+        "links":[
+            {"name":"Website (Hosted)",
+              "url":"http://inicio.ca/frank-dean"}
+        ]
+    }
+}

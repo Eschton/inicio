@@ -1,0 +1,16 @@
+{
+    "name": "Eschton",
+    "id": "eschton",
+    "scheme":"light",
+    "description":["Geometric composition."],
+    "splash": {
+    	"url":"splash.png"
+    },
+    "images": [
+        "img-1.png"
+    ],
+    "stats":{
+    	"start":"",
+        "collaborators":["For: John Morgan"]
+    }
+}

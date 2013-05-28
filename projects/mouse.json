@@ -1,0 +1,22 @@
+{
+    "name": "Where is Scott's Mouse?",
+    "id": "mouse",
+    "scheme":"light",
+    "intro" :"Social media is compelling its users to lead more transparent lives. However, much of the information its users post can be pre-meditated, censored, or digitally improved.",
+    "description":["I want to move beyond social media as the only method to divulge personal information. What would it be like to see computer data, such as someone's cursor position?","A program on my computer continuously collects my cursor's screen position in realtime and feeds the data into a website for display. The app runs periodically. When the program is inactive the default 'pending' icon is displayed.", "Special thanks to Connor Crawford for hosting the application."],
+    "splashImg": "splash.jpg",
+    "stats":{
+        "start":"Fall 2012",
+        "status":"Complete",
+        "materials":["Macbook","Trackpad","Java","jQuery"],
+        "links":[
+            {
+                "name":"App Website (hosted)",
+                "url":"http://connorcrawford.com/whereismymouse/hereitis.html"
+            }
+        ]
+    },
+    "images": [
+        
+    ]
+}

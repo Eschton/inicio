@@ -1,0 +1,32 @@
+{
+    "name": "Open Tag Toronto",
+    "scheme" : "light",
+    "id": "otto",
+    "description":["Apparatus for transient vandalism."],
+    "splash": {
+        "url" : "splash.jpg",
+        "style" : "full"
+    },
+    "stats":{
+        "start":"Spring 2012",
+        "collaborators": ["With: John Morgan"],
+        "materials":["Arduino","Spray Paint","Paper Clips","Skateboard"],
+        "links":[
+                
+            ],
+        "tags":["Autonomous","Graffiti","Street Art"] 
+    },
+    "illustration":
+            "illus/otto-trail-01.png",
+    "images": [
+        "screen-01.jpg"
+    ],
+    "development": [
+        {
+            "date":""
+        },
+        {
+
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+
+<div class="container">
+    <div class="row">
+        <div class="span12 last">
+            <h2 class="title">{{project.name}}</h2>
+        </div>
+    </div>
+</div>
+
+<div class="splash-img" style="{{'background: url(\'/'+project.splashImg+'\') '}}">
+                <img ng-src="{{'img/projects/'+project.id +'/'+ project.splash.url}}" class="project {{project.splash.style}}">
+            </div>
+
+<div class="container">
+
+    <div class="row">
+        <div class="span8 offset2 description">
+            <p class="desc" ng-repeat="desc in project.description">
+                {{desc}}
+            </p> 
+        </div>
+        <div class="span8 offset2">
+            <ul class="project-stats">
+                <li>{{project.stats.start}}</li>
+                <li>
+                    <ul ng-repeat="name in project.stats.collaborators">
+                        <li>{{name}}</li>
+                    </ul>
+                <li>
+                    <ul ng-repeat="link in project.stats.links">
+                        <li><a href="{{link.url}}" target="_blank">{{link.name}}</a></li>
+                    </ul>
+                </li>   
+        </div>  
+    </div>
+    <img ng-src="{{mainImageUrl}}" class="project">
+
+    <div class="row intro">
+        
+        <div class="span3">
+            
+            <img ng-src="{{'img/projects/'+project.id +'/'+ project.illustration}}" class="project hidden">
+
+        </div>
+        <div class="span12">
+            <ul class="project-thumbs">
+                <li ng-repeat="img in project.images">
+                    <img ng-src="{{ 'img/projects/'+project.id + '/' + img }}" ng-click="setImage(img)">
+                </li>
+            </ul>
+        </div>
+        <div class="span3">
+                
+            
+                </div>
+            </div>
+        </div>
+
+
+<ul class="project-thumbs hidden">
+    <li ng-repeat="img in project.images">
+        <img ng-src="{{img}}" ng-click="setImage(img)">
+    </li>
+</ul>
+
+<div class="row project-nav">
+        <div class="span8 offset2">
+            <!--Body content-->
+            <p><a href="index.html" href="">Homepage</a></p>
+
+        </div>
+    </div>
+
+</div>
